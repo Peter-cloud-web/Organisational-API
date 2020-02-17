@@ -11,6 +11,9 @@ public class Users {
         this.position = position;
         this.roles = roles;
     }
+    public static Users setUpNewUser(){
+        return new Users("Peter","manager","managing");
+    }
 
     public String getName() {
         return name;
