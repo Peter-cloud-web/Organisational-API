@@ -4,17 +4,19 @@ public class Department {
 
     private String depName;
     private String depDescription;
-    private String numberOfEmployees;
+    private int numberOfEmployees;
     private String depId;
 
-    public Department (String depName, String depDescription, String numberOfEmployees, String depId){
+    public Department (String depName, String depDescription, int numberOfEmployees, String depId){
         this.depDescription = depDescription;
         this.depId = depId;
         this.depName = depName;
         this.numberOfEmployees = numberOfEmployees;
 
     }
-
+    public static Department setUpNewDepartment() {
+        return new Department("Science","science and tech only ",3,"Abmi");
+    }
 
     public String getDepName() {
         return depName;
@@ -32,11 +34,11 @@ public class Department {
         this.depDescription = depDescription;
     }
 
-    public String getNumberOfEmployees() {
+    public int getNumberOfEmployees() {
         return numberOfEmployees;
     }
 
-    public void setNumberOfEmployees(String numberOfEmployees) {
+    public void setNumberOfEmployees(int numberOfEmployees) {
         this.numberOfEmployees = numberOfEmployees;
     }
 
