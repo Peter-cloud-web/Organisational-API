@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../Java/HeroSquad-dev" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Java/java-todo-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../java-wildlife-tracker-master" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="659" />
+    <option name="y" value="50" />
+    <option name="width" value="763" />
+    <option name="height" value="680" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+</project>
