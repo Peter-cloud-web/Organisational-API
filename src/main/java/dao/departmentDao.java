@@ -9,6 +9,8 @@ public interface departmentDao {
 
     List<News> getAll();
 
+    void update(int id, String name, String address, String zipcode, String phone, String website, String email);
+
     void deleteById(int id);
 
     void clearAll();

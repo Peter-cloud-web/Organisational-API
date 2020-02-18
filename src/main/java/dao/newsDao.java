@@ -3,7 +3,7 @@ import models.News;
 
 import java.util.List;
 
-public interface newsDao {
+ public interface newsDao {
     void add( News news);
 
     List<News> getAll();

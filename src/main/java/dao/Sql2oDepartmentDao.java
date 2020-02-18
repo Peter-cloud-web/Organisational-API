@@ -1,4 +1,8 @@
 package dao;
 
-public class Sql2oDepartmentDao {
+import models.Department;
+
+public class Sql2oDepartmentDao implements Department {
+
+
 }
