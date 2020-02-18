@@ -1,5 +1,6 @@
 package dao;
 
-public class departmentDao {
+public interface departmentDao {
+
 
 }
