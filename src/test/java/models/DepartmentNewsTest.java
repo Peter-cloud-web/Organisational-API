@@ -8,5 +8,7 @@ public class DepartmentNewsTest {
 
     @Test
     public void getDepartmentId() {
+        DepartmentNews departmentNews = DepartmentNews.setUpNewDepartmentNews();
+        assertEquals("economic times", departmentNews.getTopic());
     }
 }

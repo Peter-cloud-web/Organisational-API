@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5414b2c7-8be6-419d-ac54-30d2b6b0e1e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/DepartmentNews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/NewsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/UsersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/UsersDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -16,14 +14,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/models/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/models.DepartmentTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/models/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/models.UsersTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/models.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/models.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-models.DepartmentTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-models.UsersTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/News.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/DepartmentNewsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/DepartmentNewsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -55,20 +52,28 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="150">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Department.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="330">
               <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
+                <element signature="e#600#601#0" expanded="true" />
                 <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
                 <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
                 <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#852#853#0" expanded="true" />
                 <element signature="e#904#905#0" expanded="true" />
+                <element signature="e#945#946#0" expanded="true" />
                 <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1048#1049#0" expanded="true" />
                 <element signature="e#1106#1107#0" expanded="true" />
+                <element signature="e#1138#1139#0" expanded="true" />
                 <element signature="e#1166#1167#0" expanded="true" />
+                <element signature="e#1208#1209#0" expanded="true" />
                 <element signature="e#1242#1243#0" expanded="true" />
               </folding>
             </state>
@@ -78,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/models/DepartmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="90">
               <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="9" selection-end-column="30" />
             </state>
           </provider>
@@ -87,19 +92,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/News.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="165">
               <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
               <folding>
                 <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,25 +114,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/DepartmentNews.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-              <folding>
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/UsersDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/DepartmentDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/models/DepartmentNewsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -147,19 +154,9 @@
               <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="38" />
               <folding>
                 <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
                 <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,8 +176,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -198,6 +195,8 @@
         <option value="$PROJECT_DIR$/src/test/java/models/NewsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/DepartmentNews.java" />
         <option value="$PROJECT_DIR$/src/test/java/models/DepartmentNewsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/UsersDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/DepartmentDao.java" />
       </list>
     </option>
   </component>
@@ -246,6 +245,35 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrganisationalAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrganisationalAPI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrganisationalAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrganisationalAPI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrganisationalAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrganisationalAPI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrganisationalAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrganisationalAPI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -280,7 +308,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.UsersTest">
+  <component name="RunManager" selected="Gradle.DepartmentNewsTest">
+    <configuration name="DepartmentNewsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;models.DepartmentNewsTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DepartmentNewsTest.getDepartmentId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;models.DepartmentNewsTest.getDepartmentId&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="DepartmentTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -321,46 +389,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DepartmentTest.getDepId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;models.DepartmentTest.getDepId&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="DepartmentTest.getNumberOfEmployees" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;models.DepartmentTest.getNumberOfEmployees&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="UsersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -383,11 +411,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DepartmentNewsTest" />
+        <item itemvalue="Gradle.DepartmentNewsTest.getDepartmentId" />
         <item itemvalue="Gradle.UsersTest" />
         <item itemvalue="Gradle.DepartmentTest.getDepDescription" />
         <item itemvalue="Gradle.DepartmentTest" />
-        <item itemvalue="Gradle.DepartmentTest.getDepId" />
-        <item itemvalue="Gradle.DepartmentTest.getNumberOfEmployees" />
       </list>
     </recent_temporary>
   </component>
@@ -405,9 +433,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DepartmentTest_getDepName - 2020.02.17 at 16h 15m 18s.xml">
-      <configuration name="DepartmentTest.getDepName" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="DepartmentTest - 2020.02.17 at 16h 20m 48s.xml">
       <configuration name="DepartmentTest" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -432,61 +457,74 @@
     <history-entry file="UsersTest - 2020.02.17 at 17h 05m 55s.xml">
       <configuration name="UsersTest" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="DepartmentNewsTest_getDepartmentId - 2020.02.17 at 18h 02m 02s.xml">
+      <configuration name="DepartmentNewsTest.getDepartmentId" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DepartmentNewsTest - 2020.02.18 at 07h 59m 36s.xml">
+      <configuration name="DepartmentNewsTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="15" width="1366" height="717" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="31" width="1366" height="699" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="DB Browser" />
-      <window_info id="UI Designer" />
-      <window_info id="Project Explorer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Job Explorer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962293" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.260181" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="DB Execution Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Anonymous Apex" />
-      <window_info anchor="bottom" id="Log Analyzer" />
-      <window_info anchor="bottom" id="Build" weight="0.32876712" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="SOQL Query" />
-      <window_info anchor="bottom" id="Console" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="DB Browser" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Project Explorer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31958762" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="10" />
+      <window_info anchor="bottom" id="Log Analyzer" order="11" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.32876712" />
+      <window_info anchor="bottom" id="SOQL Query" order="13" />
+      <window_info anchor="bottom" id="Console" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Gradle" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Department.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="330">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
+            <element signature="e#600#601#0" expanded="true" />
             <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
             <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
             <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
             <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
             <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
             <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
             <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
             <element signature="e#1242#1243#0" expanded="true" />
           </folding>
         </state>
@@ -494,37 +532,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/DepartmentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="90">
           <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/models/UsersTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/News.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="38" />
+        <state relative-caret-position="165">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
           <folding>
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -536,44 +555,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/News.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/models/DepartmentNewsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        <state relative-caret-position="165">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="38" />
           <folding>
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/models/UsersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/DepartmentNews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-          <folding>
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/models/DepartmentNewsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/UsersDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/DepartmentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
