@@ -4,12 +4,14 @@ public class Users {
     private String name;
     private String position;
     private String roles;
+    private int id;
 
 
     public Users(String name, String position, String roles) {
         this.name = name;
         this.position = position;
         this.roles = roles;
+        this.id = id;
     }
     public static Users setUpNewUser(){
         return new Users("Peter","manager","managing");
@@ -37,6 +39,13 @@ public class Users {
 
     public void setRoles(String roles) {
         this.roles = roles;
+    }
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
 

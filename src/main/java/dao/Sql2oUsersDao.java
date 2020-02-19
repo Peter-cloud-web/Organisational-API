@@ -23,6 +23,7 @@ public class Sql2oUsersDao implements usersDao {
                     .bind(users)
                     .executeUpdate()
                     .getKey();
+            users.setId(id);
         }catch(Sql2oException ex){
             System.out.println(ex);
         }
