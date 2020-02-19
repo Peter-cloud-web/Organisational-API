@@ -1,5 +1,6 @@
 package dao;
 import models.News;
+import models.Users;
 import org.sql2o.Connection;
 import org.sql2o.Sql2o;
 import org.sql2o.Sql2oException;
@@ -45,6 +46,15 @@ public class Sql2oNewsDao implements newsDao {
                     .executeUpdate();
         } catch (Sql2oException ex) {
             System.out.println(ex);
+        }
+    }
+
+    @Override
+    public News findById(int id) {
+        try(Connection con = sql2o.open()){
+            return con.createQuery("SELECT * FROM News WHERE id = :id")
+                    .addParameter("id", id)
+                    .executeAndFetchFirst(News.class);
         }
     }
 

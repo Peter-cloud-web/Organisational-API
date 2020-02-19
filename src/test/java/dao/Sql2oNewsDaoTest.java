@@ -67,4 +67,12 @@ public class Sql2oNewsDaoTest {
         assertEquals(0,newsDao.getAll().size());
 
     }
+    @Test
+    public void findUserById() throws Exception{
+        News news = new News("tech","Baraks");
+        newsDao.add(news);
+        News findNews = newsDao.findById(news.getId());
+        assertEquals(findNews,newsDao.findById(news.getId()));
+    }
+
 }

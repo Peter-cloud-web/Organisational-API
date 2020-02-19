@@ -32,16 +32,10 @@ public class App {
             res.type("application/json");
             return gson.toJson(department);
         });
-        get("/department/new","application/json",(req,res)->{
+        get("/department","application/json",(req,res)->{
             res.type("application/json");
             return gson.toJson(departmentDao.getAll());
         });
-//        get("/department/:id","application/json",(req,res)->{
-//            res.type("application/json");
-//            int departmentId = Integer.parseInt((req.params("id")));
-//            res.type("application/json");
-//            return gson.toJson(departmentDao.findById(departmentId));
-//        });
 
         post("/users/new","application/json",(req,res)-> {
             Users users = gson.fromJson(req.body(),Users.class);
@@ -50,15 +44,10 @@ public class App {
             res.type("application/json");
             return gson.toJson(users);
         });
-        get("/users/new","application/json",(req,res)->{
+        get("/users","application/json",(req,res)->{
             res.type("application/json");
             return gson.toJson(usersDao.getAll());
         });
-//        get("/users/:id","application/json",(req,res)->{
-//            res.type("application/json");
-//            int userId = Integer.parseInt((req.params("id")));
-//            res.type("application/json");
-//            return gson.toJson(usersDao.findById(userId));
 
         post("/news/new","application/json",(req,res)-> {
             News news = gson.fromJson(req.body(),News.class);
@@ -66,6 +55,16 @@ public class App {
             res.status(201);
             res.type("application/json");
             return gson.toJson(news);
+        });
+        get("/news","application/json",(req,res)->{
+            res.type("application/json");
+            return gson.toJson(newsDao.getAll());
+        });
+        get("/restaurants/:id", "application/json", (req, res) -> { //accept a request in format JSON from an app
+            res.type("application/json");
+            int restaurantId = Integer.parseInt(req.params("id"));
+            res.type("application/json");
+            return gson.toJson(restaurantDao.findById(restaurantId));
         });
 
 

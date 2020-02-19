@@ -10,7 +10,7 @@ public interface usersDao {
 
     List<Users>getAll();
 
-    void findById(int id);
+    Users findById(int id);
 
 
     void deleteById(int id);

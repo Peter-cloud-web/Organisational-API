@@ -13,6 +13,7 @@ public class Users {
         this.position = position;
         this.role = role;
         this.depId = depId;
+        this.id = id;
     }
     public static Users setUpNewUser(){
         return new Users("Peter","manager","managing",54);
@@ -52,6 +53,7 @@ public class Users {
     public void setRole(String role) {
         this.role = role;
     }
+
     public int getId() {
         return id;
     }

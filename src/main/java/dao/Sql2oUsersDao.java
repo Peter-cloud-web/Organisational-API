@@ -1,6 +1,5 @@
 package dao;
 
-import models.News;
 import models.Users;
 import org.sql2o.Connection;
 import org.sql2o.Sql2o;
@@ -35,18 +34,14 @@ public class Sql2oUsersDao implements usersDao {
                     .executeAndFetch(Users.class);
         }
     }
-    @Override
-    public void findById(int id) {
-
-        String sql = "SELECT * FROM users WHERE id=:id";
-        try (Connection con = sql2o.open()) {
-            con.createQuery(sql)
-                    .addParameter("id", id)
-                    .executeUpdate();
-        } catch (Sql2oException ex) {
-            System.out.println(ex);
-        }
+   @Override
+   public Users findById(int id) {
+    try(Connection con = sql2o.open()){
+        return con.createQuery("SELECT * FROM users WHERE id = :id")
+                .addParameter("id", id)
+                .executeAndFetchFirst(Users.class);
     }
+}
 
     @Override
     public void deleteById(int id) {

@@ -50,12 +50,18 @@ public class Sql2oDepartmentDaoTest {
         departmentDao.deleteById(department.getId());
         assertEquals(1,departmentDao.getAll().size());
     }
+    @Test
+    public void findUserById() throws Exception{
+        Department department1 = new Department("Science","Science",3,"ABMI");
+        departmentDao.add(department1);
+        Department findDepartments = departmentDao.findById(department1.getId());
+        assertEquals(findDepartments,departmentDao.findById(department1.getId()));
+    }
 
     @Test
     public void clearAll() {
         Department department = Department.setUpNewDepartment();
         Department department1 = Department.setUpNewDepartment();
-
         departmentDao.clearAll();
         assertEquals(0,departmentDao.getAll().size());
 

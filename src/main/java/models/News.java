@@ -14,7 +14,7 @@ public class News {
     }
 
     public static News setUpNewNews(){
-        return new News("NEW CEO","peter");
+        return new News(" THE NEW CEO","peter");
     }
 
     public String getTopic() {

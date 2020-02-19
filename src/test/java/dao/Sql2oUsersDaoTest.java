@@ -46,13 +46,13 @@ public class Sql2oUsersDaoTest {
 
     }
 
-//    @Test
-//    public void findUserById() throws Exception{
-//        Users user2 =  new Users("Peter","manager","managing",54);;
-//        usersDao.add(user2);
-//        usersDao.findById(user2.getId());
-//        assertEquals(0,usersDao.getId());
-//    }
+    @Test
+    public void findUserById() throws Exception{
+        Users user2 =  new Users("Peter","manager","managing",54);;
+        usersDao.add(user2);
+        Users findUser = usersDao.findById(user2.getId());
+        assertEquals(findUser,usersDao.findById(user2.getId()));
+    }
     @Test
     public void deleteById() throws Exception{
         Users user1 = Users.setUpNewUser();
