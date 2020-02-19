@@ -3,10 +3,14 @@ package models;
 public class News {
     private String topic;
     private String writer;
+    private int id;
+
+
 
     public News(String topic, String writer) {
         this.topic = topic;
         this.writer = writer;
+        this.id = id;
     }
 
     public static News setUpNewNews(){
@@ -27,6 +31,14 @@ public class News {
 
     public void setWriter(String writer) {
         this.writer = writer;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
 

@@ -29,7 +29,7 @@ public class Sql2oUsersDaoTest {
         conn.close();
     }
     @Test
-    public void addingReviewSetsId() throws Exception {
+    public void addingUsersSetsId() throws Exception {
         Users testUsers = Users.setUpNewUser();
         assertEquals(1, testUsers.getId());
     }

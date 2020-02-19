@@ -6,12 +6,15 @@ public class Department {
     private String depDescription;
     private int numberOfEmployees;
     private String depId;
+    private int id;
+
 
     public Department (String depName, String depDescription, int numberOfEmployees, String depId){
         this.depDescription = depDescription;
         this.depId = depId;
         this.depName = depName;
         this.numberOfEmployees = numberOfEmployees;
+        this.id = id;
 
     }
     public static Department setUpNewDepartment() {
@@ -48,6 +51,13 @@ public class Department {
 
     public void setDepId(String depId) {
         this.depId = depId;
+    }
+    public String getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
 

@@ -2,30 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5414b2c7-8be6-419d-ac54-30d2b6b0e1e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dao/Sql2oDepartmentDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dao/Sql2oNewsDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/models/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/models.DepartmentNewsTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/models.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-models.DepartmentNewsTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/Sql2oDepartmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/Sql2oDepartmentDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/Sql2oNewsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/Sql2oNewsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/Sql2oUsersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/Sql2oUsersDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/departmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/departmentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/News.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/create.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dao/Sql2oUsersDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dao/Sql2oUsersDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/create.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -57,130 +44,133 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="150">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/departmentDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="113" selection-start-line="11" selection-start-column="113" selection-end-line="11" selection-end-column="113" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/Sql2oDepartmentDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#0#117#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/DepartmentNews.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/usersDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/Sql2oUsersDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dao/Sql2oUsersDaoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/db/create.sql">
-          <provider editor-type-id="OdpsQlGraph" />
-          <provider selected="true" editor-type-id="OdpsQlEditor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Department.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#904#905#0" expanded="true" />
-                <element signature="e#945#946#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
-                <element signature="e#1106#1107#0" expanded="true" />
-                <element signature="e#1138#1139#0" expanded="true" />
-                <element signature="e#1166#1167#0" expanded="true" />
-                <element signature="e#1208#1209#0" expanded="true" />
-                <element signature="e#1242#1243#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Users.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-360">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-              <folding>
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#703#704#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#958#959#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.15580736">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="150">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/models/News.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+                  <folding>
+                    <element signature="e#240#241#0" expanded="true" />
+                    <element signature="e#290#291#0" expanded="true" />
+                    <element signature="e#646#647#0" expanded="true" />
+                    <element signature="e#671#672#0" expanded="true" />
+                    <element signature="e#704#705#0" expanded="true" />
+                    <element signature="e#732#733#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/dao/Sql2oNewsDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="330">
+                  <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#293#294#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/models/DepartmentNews.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/dao/Sql2oNewsDaoTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="840">
+                  <caret line="56" column="40" lean-forward="true" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/db/create.sql">
+              <provider editor-type-id="OdpsQlGraph" />
+              <provider selected="true" editor-type-id="OdpsQlEditor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/dao/usersDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/models/Users.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#450#451#0" expanded="true" />
+                    <element signature="e#477#478#0" expanded="true" />
+                    <element signature="e#517#518#0" expanded="true" />
+                    <element signature="e#549#550#0" expanded="true" />
+                    <element signature="e#584#585#0" expanded="true" />
+                    <element signature="e#615#616#0" expanded="true" />
+                    <element signature="e#663#664#0" expanded="true" />
+                    <element signature="e#703#704#0" expanded="true" />
+                    <element signature="e#735#736#0" expanded="true" />
+                    <element signature="e#763#764#0" expanded="true" />
+                    <element signature="e#805#806#0" expanded="true" />
+                    <element signature="e#839#840#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/dao/Sql2oUsersDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="220">
+                  <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/dao/Sql2oUsersDaoTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="453">
+                  <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -196,10 +186,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/models/Department.java" />
         <option value="$PROJECT_DIR$/src/test/java/models/DepartmentTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/models/UsersTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/News.java" />
         <option value="$PROJECT_DIR$/src/test/java/models/NewsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/DepartmentNews.java" />
         <option value="$PROJECT_DIR$/src/test/java/models/DepartmentNewsTest.java" />
@@ -208,21 +196,25 @@
         <option value="$PROJECT_DIR$/src/main/java/dao/newsDao.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/resources/create.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/departmentDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/usersDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Users.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/Sql2oUsersDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Department.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/Sql2oDepartmentDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/Sql2oNewsDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/dao/Sql2oUsersDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/departmentDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dao/Sql2oDepartmentDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/News.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/Sql2oNewsDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dao/Sql2oNewsDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/create.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Users.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="559" />
-    <option name="y" value="50" />
-    <option name="width" value="807" />
-    <option name="height" value="680" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="31" />
+    <option name="width" value="1366" />
+    <option name="height" value="699" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -230,6 +222,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,19 +309,10 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="OrganisationalAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrganisationalAPI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,7 +345,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Sql2oUsersDaoTest.addingReviewSetsId">
+  <component name="RunManager" selected="Gradle.Sql2oUsersDaoTest.clearAll">
     <configuration name="DepartmentNewsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -421,6 +406,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Sql2oUsersDaoTest.clearAll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;dao.Sql2oUsersDaoTest.clearAll&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Sql2oUsersDaoTest.getAll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -441,33 +446,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UsersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;models.UsersTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Sql2oUsersDaoTest.clearAll" />
         <item itemvalue="Gradle.Sql2oUsersDaoTest.addingReviewSetsId" />
         <item itemvalue="Gradle.Sql2oUsersDaoTest.getAll" />
         <item itemvalue="Gradle.DepartmentNewsTest" />
         <item itemvalue="Gradle.DepartmentNewsTest.getDepartmentId" />
-        <item itemvalue="Gradle.UsersTest" />
       </list>
     </recent_temporary>
   </component>
@@ -485,12 +470,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Sql2oUsersDaoTest_addingReviewSetsId - 2020.02.18 at 20h 51m 49s.xml">
-      <configuration name="Sql2oUsersDaoTest.addingReviewSetsId" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Sql2oUsersDaoTest_addingReviewSetsId - 2020.02.18 at 20h 53m 45s.xml">
-      <configuration name="Sql2oUsersDaoTest.addingReviewSetsId" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="Sql2oUsersDaoTest_addingReviewSetsId - 2020.02.18 at 20h 54m 36s.xml">
       <configuration name="Sql2oUsersDaoTest.addingReviewSetsId" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -515,12 +494,18 @@
     <history-entry file="Sql2oUsersDaoTest_getAll - 2020.02.18 at 21h 10m 27s.xml">
       <configuration name="Sql2oUsersDaoTest.getAll" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="Sql2oUsersDaoTest_clearAll - 2020.02.18 at 22h 07m 33s.xml">
+      <configuration name="Sql2oUsersDaoTest.clearAll" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="Sql2oUsersDaoTest_clearAll - 2020.02.19 at 03h 30m 48s.xml">
+      <configuration name="Sql2oUsersDaoTest.clearAll" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="31" width="1366" height="699" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19306184" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20135747" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -538,7 +523,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31786942" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30756015" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Anonymous Apex" order="10" />
       <window_info anchor="bottom" id="Log Analyzer" order="11" />
@@ -557,7 +542,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2672751" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20135747" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -569,13 +554,13 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.339254" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32920355" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30756015" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Anonymous Apex" order="10" />
       <window_info anchor="bottom" id="Log Analyzer" order="11" />
@@ -641,103 +626,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/News.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Department.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding>
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/departmentDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="11" column="113" selection-start-line="11" selection-start-column="113" selection-end-line="11" selection-end-column="113" />
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/DepartmentNews.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding>
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/Sql2oDepartmentDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="-225">
+          <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
           <folding>
-            <element signature="e#0#117#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Sql2oNewsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="e#0#2044#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/create.sql">
-      <provider selected="true" editor-type-id="OdpsQlEditor" />
-      <provider editor-type-id="OdpsQlGraph" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/usersDao.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -749,19 +663,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dao/Sql2oDepartmentDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/News.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Sql2oNewsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/Sql2oUsersDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        <state relative-caret-position="220">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/DepartmentNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dao/Sql2oNewsDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="40" lean-forward="true" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/create.sql">
+      <provider editor-type-id="OdpsQlGraph" />
+      <provider selected="true" editor-type-id="OdpsQlEditor">
+        <state relative-caret-position="120">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dao/Sql2oUsersDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+        <state relative-caret-position="453">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
           </folding>
         </state>
       </provider>
