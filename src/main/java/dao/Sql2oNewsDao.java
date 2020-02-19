@@ -14,7 +14,7 @@ public class Sql2oNewsDao implements newsDao {
 
     @Override
     public void add(News news) {
-        String sql = "INSERT INTO(Topic,writer) VALUES (:Topic,:writer)";
+        String sql = "INSERT INTO News(topic,writer) VALUES (:topic,:writer)";
         try (Connection con = sql2o.open()) {
             int id = (int) con.createQuery(sql, true)
                     .bind(news)
@@ -29,7 +29,7 @@ public class Sql2oNewsDao implements newsDao {
     @Override
     public List<News> getAll() {
         try (Connection con = sql2o.open()) {
-            return con.createQuery("SELECT * FROM news")
+            return con.createQuery("SELECT * FROM News")
                     .executeAndFetch(News.class);
 
         }
@@ -38,7 +38,7 @@ public class Sql2oNewsDao implements newsDao {
     //
     @Override
     public void deleteById(int id) {
-        String sql = "DELETE from news WHERE id=:id";
+        String sql = "DELETE from News WHERE id=:id";
         try (Connection con = sql2o.open()) {
             con.createQuery(sql)
                     .addParameter("id", id)
@@ -50,7 +50,7 @@ public class Sql2oNewsDao implements newsDao {
 
     @Override
     public void clearAll() {
-        String sql = "DELETE from reviews";
+        String sql = "DELETE from News";
         try (Connection con = sql2o.open()) {
             con.createQuery(sql).executeUpdate();
         } catch (Sql2oException ex) {

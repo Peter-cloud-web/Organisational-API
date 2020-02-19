@@ -17,7 +17,7 @@ public class Sql2oUsersDao implements usersDao {
 
     @Override
     public void add(Users users){
-        String sql = "INSERT INTO Users(name,position,roles) VALUES (:name,:position,:roles)";
+        String sql = "INSERT INTO users(name,position,role) VALUES (:name,:position,:role)";
         try(Connection con = sql2o.open()){
             int id = (int) con.createQuery(sql,true)
                     .bind(users)
@@ -33,15 +33,24 @@ public class Sql2oUsersDao implements usersDao {
         try (Connection con = sql2o.open()){
             return con.createQuery("SELECT * FROM users")
                     .executeAndFetch(Users.class);
+        }
+    }
+    @Override
+    public void findById(int id) {
 
-
+        String sql = "SELECT * FROM users WHERE id=:id";
+        try (Connection con = sql2o.open()) {
+            con.createQuery(sql)
+                    .addParameter("id", id)
+                    .executeUpdate();
+        } catch (Sql2oException ex) {
+            System.out.println(ex);
         }
     }
 
-
     @Override
     public void deleteById(int id) {
-        String sql = "DELETE from news WHERE id=:id";
+        String sql = "DELETE from users WHERE id=:id";
         try (Connection con = sql2o.open()) {
             con.createQuery(sql)
                     .addParameter("id", id)
@@ -54,7 +63,7 @@ public class Sql2oUsersDao implements usersDao {
 
     @Override
     public void clearAll() {
-        String sql = "DELETE from reviews";
+        String sql = "DELETE from users";
         try (Connection con = sql2o.open()) {
             con.createQuery(sql).executeUpdate();
         } catch (Sql2oException ex) {

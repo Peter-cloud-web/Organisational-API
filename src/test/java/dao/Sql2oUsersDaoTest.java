@@ -23,42 +23,54 @@ public class Sql2oUsersDaoTest {
         usersDao = new Sql2oUsersDao(sql2o);
         usersDao = new Sql2oUsersDao(sql2o);
         conn = sql2o.open();
+
     }
     @After
     public void tearDown() throws Exception {
         conn.close();
     }
+
     @Test
     public void addingUsersSetsId() throws Exception {
         Users testUsers = Users.setUpNewUser();
+        usersDao.add(testUsers);
         assertEquals(1, testUsers.getId());
     }
     @Test
     public void getAll() throws Exception{
         Users user1 = Users.setUpNewUser();
         Users user2 = Users.setUpNewUser();
+        usersDao.add(user1);
+        usersDao.add(user2);
         assertEquals(2,usersDao.getAll().size());
 
     }
+
+//    @Test
+//    public void findUserById() throws Exception{
+//        Users user2 =  new Users("Peter","manager","managing",54);;
+//        usersDao.add(user2);
+//        usersDao.findById(user2.getId());
+//        assertEquals(0,usersDao.getId());
+//    }
     @Test
     public void deleteById() throws Exception{
         Users user1 = Users.setUpNewUser();
-        Users user2 = Users.setUpNewUser();
-        assertEquals(2,usersDao.getAll().size());
+        Users user2 =  new Users("Peter","manager","managing",54);
+        usersDao.add(user1);
+        usersDao.add(user2);
         usersDao.deleteById(user1.getId());
-        assertEquals(1,usersDao.getAll().size());
+        usersDao.deleteById(user2.getId());
+        assertEquals(0,usersDao.getAll().size());
     }
     @Test
     public void  clearAll() throws Exception{
         Users user1 = Users.setUpNewUser();
-        Users user2 = Users.setUpNewUser();
+        Users user2 =  new Users("Peter","manager","managing",54);
+        usersDao.add(user1);
         usersDao.clearAll();
         assertEquals(0,usersDao.getAll().size());
 
     }
-
-
-
-
 
 }

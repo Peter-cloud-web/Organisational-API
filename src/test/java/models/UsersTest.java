@@ -21,6 +21,6 @@ public class UsersTest {
     @Test
     public void getRoles() {
         Users users = Users.setUpNewUser();
-        assertEquals("managing",users.getRoles());
+        assertEquals("managing",users.getRole());
     }
 }

@@ -1,2 +1,0 @@
-`org.sql2o.Sql2oException: Error preparing statement - Table "REVIEWS" not found; SQL statement:
- DELETE from reviews [42102-191]

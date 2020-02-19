@@ -11,7 +11,6 @@ public class Department {
 
     public Department (String depName, String depDescription, int numberOfEmployees, String depId){
         this.depDescription = depDescription;
-        this.depId = depId;
         this.depName = depName;
         this.numberOfEmployees = numberOfEmployees;
         this.id = id;
@@ -52,7 +51,8 @@ public class Department {
     public void setDepId(String depId) {
         this.depId = depId;
     }
-    public String getId() {
+
+    public int getId() {
         return id;
     }
 

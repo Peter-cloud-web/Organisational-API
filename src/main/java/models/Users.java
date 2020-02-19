@@ -3,20 +3,22 @@ package models;
 public class Users {
     private String name;
     private String position;
-    private String roles;
+    private String role;
     private int depId;
     private int id;
 
 
-    public Users(String name, String position, String roles, int depId) {
+    public Users(String name, String position, String role, int depId) {
         this.name = name;
         this.position = position;
-        this.roles = roles;
+        this.role = role;
         this.depId = depId;
     }
     public static Users setUpNewUser(){
         return new Users("Peter","manager","managing",54);
     }
+
+
 
     public String getName() {
         return name;
@@ -25,6 +27,8 @@ public class Users {
     public void setName(String name) {
         this.name = name;
     }
+
+
     public int getDepId() {
         return depId;
     }
@@ -41,12 +45,12 @@ public class Users {
         this.position = position;
     }
 
-    public String getRoles() {
-        return roles;
+    public String getRole() {
+        return role;
     }
 
-    public void setRoles(String roles) {
-        this.roles = roles;
+    public void setRole(String role) {
+        this.role = role;
     }
     public int getId() {
         return id;

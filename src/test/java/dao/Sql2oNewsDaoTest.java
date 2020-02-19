@@ -29,35 +29,42 @@ public class Sql2oNewsDaoTest {
     }
 
     @Test
-    public void addingUsersSetsId() {
-        News news = News.setUpNewNews();
-        News news1 = News.setUpNewNews();
+    public void addingNewsSetsId() {
+        News news = new News("tech","Baraks");;
+        News news1 = new News("finance","mike");
+        newsDao.add(news);
+        newsDao.add(news1);
         assertEquals(2,newsDao.getAll().size());
     }
 
     @Test
     public void getAll() {
-        News news = News.setUpNewNews();
-        News news1 = News.setUpNewNews();
+        News news = new News("tech","Baraks");
+        News news1 = new News("finance","mike");
+        newsDao.add(news);
+        newsDao.add(news1);
         assertEquals(2,newsDao.getAll().size());
     }
-
+    @Test
+    public void addingOneNewsSetsId() throws Exception {
+        News news = new News("tech","Baraks");
+        newsDao.add(news);
+        assertEquals(0, news.getId());
+    }
     @Test
     public void deleteById() {
-        News news = News.setUpNewNews();
-        News news1 = News.setUpNewNews();
-        assertEquals(2,newsDao.getAll().size());
+        News news = new News("tech","Baraks");
+        newsDao.add(news);
         newsDao.deleteById(news.getId());
-        assertEquals(1,newsDao.getAll().size());
-
+        assertEquals(0,newsDao.getAll().size());
     }
 
     @Test
     public void clearAll() throws Exception{
-        News news = News.setUpNewNews();
-        News news1 = News.setUpNewNews();
+        News news = new News("tech","Baraks");
+        newsDao.add(news);
         newsDao.clearAll();
-        assertEquals(0,usersDao.getAll().size());
+        assertEquals(0,newsDao.getAll().size());
 
     }
 }
