@@ -24,9 +24,5 @@ public class DepartmentTest {
         assertEquals(3,department.getNumberOfEmployees());
     }
 
-    @Test
-    public void getDepId() {
-        Department department = Department.setUpNewDepartment();
-        assertEquals("Abmi",department.getDepId());
-    }
+
 }

@@ -17,7 +17,7 @@ public class Sql2oDepartmentDaoTest {
     public void setUp() throws Exception {
         String connectionString = "jdbc:h2:mem:testing;INIT=RUNSCRIPT from 'classpath:db/create.sql'";
         Sql2o sql2o = new Sql2o(connectionString, "sean", "access");
-        Sql2oDepartmentDao departmentDao= new Sql2oDepartmentDao(sql2o);
+        departmentDao= new Sql2oDepartmentDao(sql2o);
         conn = sql2o.open();
     }
 
@@ -28,31 +28,32 @@ public class Sql2oDepartmentDaoTest {
 
     @Test
     public void addDepartmentsSetsId() throws Exception{
-        Department department1 = new Department("Science","Science",3,"ABMI");
+        Department department1 = new Department("Science","Science",3);
         departmentDao.add(department1);
-        assertNotEquals(1,department1.getId());
+        assertEquals(1,department1.getId());
     }
 
     @Test
     public void getAll() throws Exception {
-        Department department1 = new Department("Science","Science",3,"ABMI");
-        Department department =new  Department("Social","culture",3,"rere");
-        departmentDao.add(department);
+        Department department1 = new Department("Science","tech",4);
+        Department department =new  Department("Social","culture",3);
         departmentDao.add(department1);
+        departmentDao.add(department);
         assertEquals(2,departmentDao.getAll().size());
     }
 
     @Test
     public void deleteById() {
-        Department department1 = new Department("Science","Science",3,"ABMI");
-        Department department =new  Department("Social","culture",3,"rere");
+        Department department1 = new Department("Science","tech",4);
+        Department department =new  Department("Social","culture",3);
         assertEquals(2,departmentDao.getAll().size());
         departmentDao.deleteById(department.getId());
         assertEquals(1,departmentDao.getAll().size());
     }
     @Test
     public void findUserById() throws Exception{
-        Department department1 = new Department("Science","Science",3,"ABMI");
+        Department department1 = new Department("Science","tech",4);
+        Department department =new  Department("Social","culture",3);
         departmentDao.add(department1);
         Department findDepartments = departmentDao.findById(department1.getId());
         assertEquals(findDepartments,departmentDao.findById(department1.getId()));
@@ -60,8 +61,7 @@ public class Sql2oDepartmentDaoTest {
 
     @Test
     public void clearAll() {
-        Department department = Department.setUpNewDepartment();
-        Department department1 = Department.setUpNewDepartment();
+        Department department1 = new Department("Science","tech",4);
         departmentDao.clearAll();
         assertEquals(0,departmentDao.getAll().size());
 

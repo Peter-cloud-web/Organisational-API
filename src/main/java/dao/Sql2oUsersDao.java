@@ -36,12 +36,13 @@ public class Sql2oUsersDao implements usersDao {
     }
    @Override
    public Users findById(int id) {
-    try(Connection con = sql2o.open()){
-        return con.createQuery("SELECT * FROM users WHERE id = :id")
-                .addParameter("id", id)
-                .executeAndFetchFirst(Users.class);
-    }
-}
+       try (Connection con = sql2o.open()) {
+           return con.createQuery("SELECT * FROM users WHERE id = :id")
+                   .addParameter("id", id)
+                   .executeAndFetchFirst(Users.class);
+       }
+   }
+
 
     @Override
     public void deleteById(int id) {

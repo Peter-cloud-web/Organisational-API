@@ -1,15 +1,16 @@
 package models;
 
+import java.util.Objects;
+
 public class Department {
 
     private String depName;
     private String depDescription;
     private int numberOfEmployees;
-    private String depId;
     private int id;
 
 
-    public Department (String depName, String depDescription, int numberOfEmployees, String depId){
+    public Department (String depName, String depDescription, int numberOfEmployees){
         this.depDescription = depDescription;
         this.depName = depName;
         this.numberOfEmployees = numberOfEmployees;
@@ -17,7 +18,23 @@ public class Department {
 
     }
     public static Department setUpNewDepartment() {
-        return new Department("Science","science and tech only ",3,"Abmi");
+        return new Department("Science","science and tech only ",3);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Department that = (Department) o;
+        return numberOfEmployees == that.numberOfEmployees &&
+                id == that.id &&
+                depName.equals(that.depName) &&
+                depDescription.equals(that.depDescription);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(depName, depDescription, numberOfEmployees, id);
     }
 
     public String getDepName() {
@@ -42,14 +59,6 @@ public class Department {
 
     public void setNumberOfEmployees(int numberOfEmployees) {
         this.numberOfEmployees = numberOfEmployees;
-    }
-
-    public String getDepId() {
-        return depId;
-    }
-
-    public void setDepId(String depId) {
-        this.depId = depId;
     }
 
     public int getId() {

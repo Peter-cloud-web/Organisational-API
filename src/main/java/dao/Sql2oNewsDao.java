@@ -27,6 +27,7 @@ public class Sql2oNewsDao implements newsDao {
         }
     }
 
+
     @Override
     public List<News> getAll() {
         try (Connection con = sql2o.open()) {

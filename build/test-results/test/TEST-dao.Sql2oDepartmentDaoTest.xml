@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dao.Sql2oDepartmentDaoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-19T19:12:43" hostname="sean-Lenovo-B50-80" time="0.403">
+  <properties/>
+  <testcase name="getAll" classname="dao.Sql2oDepartmentDaoTest" time="0.403"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

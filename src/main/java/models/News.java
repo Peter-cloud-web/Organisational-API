@@ -1,5 +1,7 @@
 package models;
 
+import java.util.Objects;
+
 public class News {
     private String topic;
     private String writer;
@@ -11,6 +13,21 @@ public class News {
         this.topic = topic;
         this.writer = writer;
         this.id = id;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        News news = (News) o;
+        return id == news.id &&
+                topic.equals(news.topic) &&
+                writer.equals(news.writer);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(topic, writer, id);
     }
 
     public static News setUpNewNews(){

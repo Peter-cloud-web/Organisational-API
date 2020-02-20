@@ -31,13 +31,13 @@ public class Sql2oUsersDaoTest {
     }
 
     @Test
-    public void addingUsersSetsId() throws Exception {
+    public void addingUsersAndAssignId() throws Exception {
         Users testUsers = Users.setUpNewUser();
         usersDao.add(testUsers);
         assertEquals(1, testUsers.getId());
     }
     @Test
-    public void getAll() throws Exception{
+    public void getAllEmployeesById() throws Exception{
         Users user1 = Users.setUpNewUser();
         Users user2 = Users.setUpNewUser();
         usersDao.add(user1);

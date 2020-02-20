@@ -38,7 +38,7 @@ public class Sql2oNewsDaoTest {
     }
 
     @Test
-    public void getAll() {
+    public void getAllNewsPublished() {
         News news = new News("tech","Baraks");
         News news1 = new News("finance","mike");
         newsDao.add(news);
@@ -46,29 +46,29 @@ public class Sql2oNewsDaoTest {
         assertEquals(2,newsDao.getAll().size());
     }
     @Test
-    public void addingOneNewsSetsId() throws Exception {
+    public void addingNewsAndSetId() throws Exception {
         News news = new News("tech","Baraks");
         newsDao.add(news);
         assertEquals(0, news.getId());
     }
     @Test
-    public void deleteById() {
+    public void deleteNewsById() {
         News news = new News("tech","Baraks");
-        newsDao.add(news);
-        newsDao.deleteById(news.getId());
-        assertEquals(0,newsDao.getAll().size());
+        News news1 = new News("science","Thomas");
+        newsDao.deleteById(news1.getId());
+        assertEquals(1,newsDao.getAll().size());
     }
 
     @Test
-    public void clearAll() throws Exception{
+    public void clearAllNewsPublished() throws Exception{
         News news = new News("tech","Baraks");
-        newsDao.add(news);
+        News new2 = new News("blockchain","simotoshi");
         newsDao.clearAll();
         assertEquals(0,newsDao.getAll().size());
 
     }
     @Test
-    public void findUserById() throws Exception{
+    public void findNewsById() throws Exception{
         News news = new News("tech","Baraks");
         newsDao.add(news);
         News findNews = newsDao.findById(news.getId());
